@@ -1,0 +1,31 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: coral;
+    padding: 10px;
+    border: 10px solid black;
+
+}
+.foto {
+
+    max-width: 100%;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+
+}
+nav ul a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    padding: 10px;
+}

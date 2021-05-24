@@ -1,0 +1,18 @@
+/*reseteamos los margenes del body*/
+body{
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+header {
+    background: blue;
+}
+
+/*si tengo una etiqueta de bloque que no ocupa el 100%
+porque le limitamos el ancho, entonces para centrar toda esta etiqueta, 
+utilizamos la propiedad margin: 0 auto*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
