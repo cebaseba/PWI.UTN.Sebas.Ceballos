@@ -1,0 +1,35 @@
+.container {
+    border: solid black 2px;
+    display: flex;
+    
+}
+
+.box    {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    margin: 10px;
+}
+.j-center {
+    justify-content: center;
+}
+.j-space-between {
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+  
+}
+nav ul li a {
+    /*siempre que agrego margin a una etiqueta de linea, debo ponerle display: inline-block*/
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}

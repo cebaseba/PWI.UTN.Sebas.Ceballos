@@ -1,0 +1,9 @@
+.btn-warning:hover {
+    color: #000;
+    background-color: #37c3db;
+    border-color: #ffc720;
+}
+.contenedor {
+    max-width: 768px;
+    margin: 0 auto;
+}
