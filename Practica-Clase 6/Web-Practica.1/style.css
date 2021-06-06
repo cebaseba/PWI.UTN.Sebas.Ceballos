@@ -1,6 +1,7 @@
 body {
-    margin: 0;
+    margin: 0;    
 }
+
 header {
     background-color: blue;
 }
@@ -53,20 +54,145 @@ nav {
 }
 .header-imagen img {
     max-width: 100%;
-    margin: 30px;
+    margin: 40px;
   
 }
 h1 {
     display: inline-block;
     margin: 0 auto;
-    padding: 30px;
+    padding: 40px;
     padding-top: 120px;
     font-family: Arial, Helvetica, sans-serif;
 
     
 }
-span {
+.tit-header {
     color: yellow;
     font-style: italic;
     
+}
+
+.section-container {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+   
+    
+   
+}
+.cont-imagen {
+    width: 50%;
+    margin: 30px;
+    
+}
+.cont-imagen img {
+    max-width: 100%;
+   
+
+}
+.cont-parrafo {
+    width: 50%;
+    margin: 30px;
+    
+}
+.cont-cabecera {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+  
+  
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    font-size: 30px;
+   
+}
+.cont-parrafo {
+    font-size: 20px;
+ 
+    
+}
+.ir-juego {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: rgb(8, 8, 82);
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    border-radius: 15px;
+}
+hr {
+    max-width: 1000px;
+    margin-top: 50px;
+    
+    
+}
+.section-recomendados {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+ 
+}
+.Card-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    width: 340px;
+    border: 1px solid black;
+    /*overflow: auto;*/ /*usado para desborde, para acomodar todo dentro del div*/ 
+    max-width: 100%;
+    background-color: #fbfbfb;
+    border-radius: 30px 30px 0px 0px;
+
+    font-family: Roboto, arial, sans-serif;
+    box-shadow: 0px 0px 4px 4px grey;
+    margin: 30px;
+
+} 
+
+.card-info {
+    padding: 0 20px 20px 20px;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    border-radius: 30px 30px 0 0 ;
+
+}
+span {
+    color: red;
+}
+p {
+    text-align: justify;
+   
+}
+
+.button {
+    border: none;
+    background-color: #549e6d;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    border-radius: 10PX;
+    text-align: center;
+    cursor: pointer;
+
+}
+.uno {
+    background-color: rgb(2, 153, 133);
+}
+.dos {
+    background-color: blue;
+}
+.tres {
+    background-color: orange;
 }
