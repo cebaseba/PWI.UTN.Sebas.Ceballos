@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+.btn-info {
+    background-color: rgb(52, 216, 52);
+    border-color: rgb(52, 216, 52);
+}
+.btn-info:hover, .btn-info:active, .btn-info:focus {
+    color: #fff;
+    background-color: #10790c;
+    border-color: #1f7414;
+}
+.contenedor {
+    max-width: 768px;
+    margin: 0 auto;
+}

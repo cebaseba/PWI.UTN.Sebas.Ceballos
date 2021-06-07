@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(207, 209, 207);
+}
+.bg-personal {
+    background-color: rgb(172, 129, 137);
+    border: darkblue;
+}
+.main-imagen {
+    width: 200px;
+}
+
+.hero {
+    background-image: url(img/image-fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+
+
+}
+p {
+    color: white;
+}
+h2 {
+    color: white;
+}
+.hero-info-container {
+    max-width: 400px;
+    margin: 0 auto; /* para centrar contenido dentro de un contenedor que esta contenido por max-width*/
+}
+div {
+    border: 1px solid black;
+}
