@@ -28,6 +28,4 @@ h2 {
     max-width: 400px;
     margin: 0 auto; /* para centrar contenido dentro de un contenedor que esta contenido por max-width*/
 }
-div {
-    border: 1px solid black;
-}
+
