@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: red;
+}
+.main-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.main-title {
+    font-size: 46px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    margin: 10px;
+}
+.flex-container {
+    display: flex;
+    /*flex direcction: row*/
+}
+
+@media(max-width: 992px) {
+    body {
+        background-color: yellow;
+    }
+    .main-title {
+        font-size: 38px;
+    }
+    
+}
+
+
+/*como maximo el dispositivo tiene 768px
+ose,a dispositivods menos de 768pxs
+*/
+
+
+
+/* entre 0 7 760px */
+@media(max-width: 768px) {
+    body {
+        background-color: orange;
+       
+    }
+  
+    .main-title {
+        font-size: 30px;
+    }
+    .flex-container {
+        flex-direction: column;
+        padding: 10px
+    }
+    .box {
+        width: calc(100% - 20px);
+        margin: 10px 0;
+    }
+    .main-nav {
+        /*anulo el flex cuando se trate de pantallas inferiores a 768px, para que puedan ubicarse los items de la nav
+         uno de bajo de otro
+        */
+        display: block;
+       
+    }
+}
