@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+}
+/*barra Nav*/
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-fluid {
+    margin-left: 9%;
+}
+.bg-personal {
+    background-color: rgb(90, 66, 224);
+    border: darkblue;
+}
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-personal {
+    color: white;
+}
+.navbar-brand, .nav-link {
+    color: white;
+}
+.navbar-brand:hover, .nav-link:focus, .nav-link:hover {
+    color: #e4c10d;
+}
+/*Section 1*/
+
+.section1 {
+    background-color: #f7f8fa;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 2%;
+  
+        
+}
+.col {
+ 
+}
+.divsec1 {
+   margin: 0;
+   
+  
+}
+.img-sec1 {
+max-width: 100%;
+
+   
+}
+.text-section1 {
+
+    margin-left: 15%;
+  
+}
+.text-section1 p {
+    font-size: 20px;
+    margin-top: 8%;
+}
+.text-section1 h2 {
+    color: blue;
+    font-size: 70px;
+    font-family: 'Shadows Into Light', cursive;
+}
