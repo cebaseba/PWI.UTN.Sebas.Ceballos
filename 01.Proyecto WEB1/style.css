@@ -1,20 +1,29 @@
 * {
     box-sizing: border-box;
 }
-
 body {
-   margin: 0;
+    background-color: rgb(244, 245, 247);
+    margin: 0;  
 }
+
 /*barra Nav*/
+
 header {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto;  
+}
+.cont-logo {
+    display: flex;
+    margin-right: 5%;
+}
+.cont-logo img {
+    width: 50px;
 }
 .container-fluid {
-    margin-left: 9%;
+    margin-left: 7%;
 }
 .bg-personal {
-    background-color: rgb(90, 66, 224);
+    background-color: rgba(19, 12, 87, 0.74);
     border: darkblue;
 }
 .nav-item {
@@ -31,40 +40,211 @@ header {
 .navbar-brand:hover, .nav-link:focus, .nav-link:hover {
     color: #e4c10d;
 }
-/*Section 1*/
+.navbar-toggler-icon {
+    background-image: url(img/icono.nav.png);
+}   
+
+
+/*Section 1 - SCNET INFORMATICA*/
+
+.grad {
+    background-image: linear-gradient(to right, rgba(91, 101, 110, 0.301), rgb(27, 91, 196));
+  }
 
 .section1 {
-    background-color: #f7f8fa;
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 2%;
-  
-        
-}
-.col {
- 
-}
+   
+
+}   
+
+.grad1 {
+    background-image: linear-gradient(to right, rgba(137, 138, 209, 0), rgba(201, 200, 207, 0.548));
+} 
+
 .divsec1 {
-   margin: 0;
-   
-  
+    margin: 0 auto;
 }
+
 .img-sec1 {
-max-width: 100%;
-
-   
+    max-width: 80%;   
 }
-.text-section1 {
 
+.text-section1 {
     margin-left: 15%;
-  
+   
 }
 .text-section1 p {
     font-size: 20px;
     margin-top: 8%;
+    display: inline-block;
 }
 .text-section1 h2 {
-    color: blue;
-    font-size: 70px;
+    color: rgb(12, 12, 107);
+    font-size: 75px;
     font-family: 'Shadows Into Light', cursive;
+}
+.btn-sabermas {
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Arvo', serif;
+    color: white;
+    background-color: rgb(43, 180, 43);
+    border-radius: 7px;
+    padding: 8px; 
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    margin-top: var(--bs-gutter-y);
+    margin-left: 180px;
+    display: inline-block;
+}
+   
+.btn-sabermas:hover {
+    color: white;
+    background-color: rgb(31, 138, 31);
+}    
+hr {
+    color: rgb(34, 34, 138);
+    border: 0; height: 2px; text-align: center; background-image: linear-gradient(left, #fff, #000, #fff);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* Section 2 - NUEVOS LANZAMIENTOS */
+
+.section2-responsive {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-lanzamiento {
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+    text-shadow: grey;
+    color: rgb(100, 100, 100);
+    margin-left: 30px;
+    border-bottom: solid black 1px;
+}
+
+.cont-imagen img {
+    max-width: 100%;
+    border-radius: 25px;
+}
+
+.cont-parrafo {
+    max-width: 45%;
+    margin: 30px;
+    display: inline-block;
+}
+
+.leer-mas {
+    font-size: 13px;
+    font-family: 'Arvo', serif;
+    text-decoration: none;
+    background-color: rgb(43, 180, 43);
+    /*background-color: #0d6efd;*/
+    color: white;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    border-radius: 7px;
+    margin-left: 150px;
+    display: inline-block;
+}
+.leer-mas:hover {
+    color: white;
+    background-color: rgb(31, 138, 31);
+    border-color: rgb(31, 138, 31);
+
+    /*
+    background-color: #0a58ca;
+    border-color: #0a53be;
+    */
+}
+.leer-mas:active {
+    background-color: rgb(31, 138, 31);
+    border-color: rgb(31, 138, 31);
+}
+
+/* Section 3 - CARDS */
+
+
+.tres {
+   margin-left: 20px; 
+   
+}
+.cardsec3 {
+    margin: 20px;
+}
+
+.cont-lanzamiento {
+    max-width: 1000px;
+    margin:0 auto;
+    margin-top: 40px;
+}
+
+.cont-imagen {
+    border-radius: 25px;
+}
+
+.img-lanza {
+    max-width: 100%;
+    padding: 20px;
+}
+.p-sec2 {
+    align-content: center;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.btn-primary {
+
+    background-color: rgb(43, 180, 43);
+    border-color: rgb(99, 158, 99);
+    box-shadow:  0 0 0.25rem rgb(80 147 63 / 50%);
+}
+
+.btn-primary:hover {
+
+    background-color: rgb(31, 138, 31);
+    border-color: rgb(31, 138, 31);
+}
+
+.btn-primary:active {
+    background-color: rgb(31, 138, 31);
+    border-color: rgb(31, 138, 31);
+    box-shadow:  0 0 0.25rem rgb(80 147 63 / 50%);
+            
+}
+
+.btn-primary:focus {
+    background-color: rgb(31, 138, 31);
+    border-color: rgb(31, 138, 31);
+    box-shadow: 0 0 0.25rem rgb(80 147 63 / 50%);
+  
+}
+
+.btn-check:focus {
+    box-shadow:  0 0 0.25rem rgb(80 147 63 / 50%);
+}
+
+footer {
+    background-color: rgb(244, 245, 247);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.cont-footer {
+    background-color: rgba(19, 12, 87, 0.74);
+    margin-top: 200px;
+}
+
+h6 {
+    color: white;
+    text-align: center;
+    padding: 20px;    
 }
